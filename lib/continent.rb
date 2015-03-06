@@ -28,4 +28,8 @@ module Continent
   def self.continent_name continent
     self.data[:continent_names][continent]
   end
+  
+  def self.continent_all
+    self.data[:continent_names]
+  end
 end

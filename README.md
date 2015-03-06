@@ -57,6 +57,14 @@ used inside the country hashes.
 Continent.continent_name('OC')
 ```
 
+### Get all continents
+
+This make it easier to get all continents from the data.
+
+```ruby
+Continent.continent_all
+```
+
 ### Getting access to the underlying data
 
 Full access to the underlying data is available via `Continent.data`, which is
